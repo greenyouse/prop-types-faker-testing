@@ -1,0 +1,30 @@
+{
+  "name": "prop-types-faker-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "parse-prop-types": "^0.3.0",
+    "prop-types": "^15.7.2",
+    "prop-types-faker": "^0.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "jest": {
+    "setupFiles": [
+      "./src/jest.config.js"
+    ]
+  }
+}
